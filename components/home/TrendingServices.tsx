@@ -1,8 +1,10 @@
+"use client";
 import { CheckCircle2 } from "lucide-react";
 import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
+import { motion } from "framer-motion";
 
 const fair = Playfair_Display({ subsets: ["latin"] });
 
@@ -18,24 +20,33 @@ const TrendingServices = () => {
         </h3>
         <div className="pt-6 md:pt-12">
           <div className="space-y-5 border-l-4 border-white pl-4 md:space-y-10">
-            <div className="flex items-center">
+            <motion.div
+              whileHover={{ scale: 0.99 }}
+              className="flex items-center"
+            >
               <CheckCircle2 size={32} />
               <h5 className="ml-4 text-lg md:text-xl">
                 Hair washing & plaiting
               </h5>
-            </div>
-            <div className="flex items-center">
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 0.99 }}
+              className="flex items-center"
+            >
               <CheckCircle2 size={32} />
               <h5 className="ml-4 text-lg md:text-xl">
                 Hair washing & plaiting
               </h5>
-            </div>
-            <div className="flex items-center">
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 0.99 }}
+              className="flex items-center"
+            >
               <CheckCircle2 size={32} />
               <h5 className="ml-4 text-lg md:text-xl">
                 Hair washing & plaiting
               </h5>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

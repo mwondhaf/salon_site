@@ -1,12 +1,5 @@
 import { Nunito, Playfair_Display } from "next/font/google";
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "../ui/card";
 import Image from "next/image";
 
 const fair = Playfair_Display({ subsets: ["latin"] });
