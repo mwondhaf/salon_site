@@ -1,5 +1,6 @@
 import Comfort from "@/components/home/Comfort";
 import HeroSection from "@/components/home/HeroSection";
+import SocialMedia from "@/components/home/SocialMedia";
 import Testimonial from "@/components/home/Testimonial";
 import TrendingServices from "@/components/home/TrendingServices";
 import Video from "@/components/home/Video";

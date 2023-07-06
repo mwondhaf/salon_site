@@ -71,7 +71,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="justify-between gap-20 px-4 md:flex md:py-20">
+    <div className="justify-between gap-20 px-4 py-10 md:flex md:py-20">
       <div className="w-full md:w-1/2">
         <div className="">
           <h1 className={`${fair.className} pb-0 text-[80px] font-bold`}>“</h1>
@@ -83,7 +83,7 @@ const Testimonial = () => {
         </div>
         <SingleTestimony review={reviews[reviewA]} isAnimating={isAnimate} />
       </div>
-      <div className="flex w-full flex-col items-center justify-between md:w-1/2">
+      <div className="flex w-full flex-col items-center justify-between pb-16 md:w-1/2">
         <SingleTestimony review={reviews[reviewB]} isAnimating={isAnimate} />
         <div className="flex items-center gap-4 pt-10">
           <motion.div
