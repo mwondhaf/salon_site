@@ -12,7 +12,7 @@ const TrendingServices = () => {
   return (
     <div className="block justify-between px-4 md:flex md:py-20">
       <div className="w-full rounded-2xl bg-purple-500 px-6  py-10 text-white md:w-1/2 md:p-20">
-        <h5 className="uppercase">You're covered</h5>
+        <h5 className="uppercase">You are covered</h5>
         <h3
           className={`${fair.className} text-3xl font-bold leading-10 md:text-[40px]`}
         >

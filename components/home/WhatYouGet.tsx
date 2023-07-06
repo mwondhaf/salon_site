@@ -35,7 +35,10 @@ const WhatYouGet = () => {
       </div>
       <div className="grid gap-10 py-10 md:grid-cols-3 md:py-20">
         {benefits.map((benefit, index) => (
-          <div className="rounded-2xl border-2 border-purple-100 p-10 px-12 py-14  hover:border-purple-400">
+          <div
+            key={index}
+            className="rounded-2xl border-2 border-purple-100 p-10 px-12 py-14  hover:border-purple-400"
+          >
             <div className="mb-6 items-center border-l-8 border-purple-500 pl-4">
               <h3 className={`${fair.className} text-2xl`}>{benefit.title}</h3>
             </div>

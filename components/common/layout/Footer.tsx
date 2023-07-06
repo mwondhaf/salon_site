@@ -78,13 +78,13 @@ const Footer = () => {
     <div className="bg-purple-700 py-14 text-white">
       <div className="grid grid-cols-2 gap-10 px-4 md:mx-auto md:max-w-[1200px] md:grid-cols-4">
         {sections.map((section, index) => (
-          <div className="flex flex-col gap-3 md:gap-6">
+          <div key={index} className="flex flex-col gap-3 md:gap-6">
             <div className={`${fair.className} text-lg font-bold`}>
               {section.title}
             </div>
             <ul className="flex flex-col gap-2 md:gap-5">
               {section.links.map((link, index) => (
-                <Link href={link.url}>
+                <Link key={index} href={link.url}>
                   <li>{link.label}</li>
                 </Link>
               ))}
