@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React, { useState } from "react";
 import { motion, useCycle } from "framer-motion";
-import { DoorClosed, Menu, X } from "lucide-react";
 import { MenuToggle } from "./MenuToggle";
 
 const menu = [
@@ -16,8 +15,6 @@ const menu = [
 function Header() {
   const [open, setOpen] = useState<boolean>(false);
   const [isOpen, toggleOpen] = useCycle(false, true);
-
-  console.log({ isOpen });
 
   const handleClick = () => {
     toggleOpen();

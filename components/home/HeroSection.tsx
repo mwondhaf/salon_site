@@ -10,7 +10,7 @@ function HeroSection() {
   return (
     <div className="flex bg-gray-50 pt-4 md:bg-hero md:bg-cover md:pt-0">
       <div className="relative mx-6 flex flex-col-reverse justify-between md:mx-auto md:flex md:max-w-[1200px] md:flex-row">
-        <div className="mt-10 flex w-full items-center pr-4 md:w-1/2">
+        <div className="mt-10 flex w-full items-center md:w-1/2 md:pr-4">
           <div className={`space-y-4`}>
             <h5 className={`${fair.className} text-2xl`}>
               #1 best spa and beauty
